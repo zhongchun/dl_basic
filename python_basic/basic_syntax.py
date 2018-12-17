@@ -2,7 +2,10 @@
 # -*- coding: utf-8 -*-
 """
  @FileName: basic_syntax
- @Desc:  
+ @Desc:
+        Python 有“解释器”和“脚本文件”两种运行模式
+        Python 能够将一系列处理集成为函数或类等模块
+        NumPy 中有很多用于操作多维数组的便捷方法
  @Author: yuzhongchun
  @Date: 2018-12-13 23:00
  @Last Modified by: yuzhongchun
@@ -87,5 +90,3 @@ def hello(object):
 
 
 hello("cat")
-
-
