@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6cb581bf-51b8-4318-8ba1-421663a7db25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/neural_network/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neural_network/mnist_show.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neural_network/neuralnet_mnist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neural_network/neuralnet_mnist_batch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neural_network/nn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neural_network/relu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neural_network/sig_step_compare.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neural_network/sigmoid.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neural_network/softmax.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neural_network/step_function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6cb581bf-51b8-4318-8ba1-421663a7db25" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,8 +93,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/neural_network/neuralnet_mnist_batch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="53" column="43" lean-forward="true" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
+            <state relative-caret-position="511">
+              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
             </state>
           </provider>
         </entry>
@@ -341,12 +329,12 @@
       <workItem from="1544713163095" duration="3073000" />
       <workItem from="1545059301650" duration="4941000" />
       <workItem from="1546696649258" duration="1334000" />
-      <workItem from="1546765130381" duration="3898000" />
+      <workItem from="1546765130381" duration="4223000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13246000" />
+    <option name="totallyTimeSpent" value="13571000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -532,8 +520,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/neural_network/neuralnet_mnist_batch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="53" column="43" lean-forward="true" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
+        <state relative-caret-position="511">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
