@@ -75,9 +75,16 @@ if __name__ == '__main__':
     print(type(X))
     print(X.shape)
     print(X.size)
-    # sys.exit(0)
+    print(Y.shape)
+    print(Y.size)
+    Z = np.array([X, Y])
+    print(Z.shape)
+    print(Z.size)
 
     grad = numerical_gradient(function_2, np.array([X, Y]))
+    print(grad.shape)
+    print(grad.size)
+    # sys.exit(0)
 
     plt.figure()
     plt.quiver(X, Y, -grad[0], -grad[1], angles="xy", color="#666666")
