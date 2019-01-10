@@ -38,6 +38,14 @@ if __name__ == '__main__':
     lr = 0.1
     step_num = 20
     x, x_history = gradient_descent(function_2, init_x, lr=lr, step_num=step_num)
+    print("======================================================================")
+    print(x)
+    print(x.shape)
+    print(x.size)
+    print(x_history)
+    print(x_history.shape)
+    print(x_history.size)
+    print("======================================================================")
 
     plt.plot([-5, 5], [0, 0], '--b')
     plt.plot([0, 0], [-5, 5], '--b')
@@ -47,4 +55,4 @@ if __name__ == '__main__':
     plt.ylim(-4.5, 4.5)
     plt.xlabel("X0")
     plt.ylabel("X1")
-plt.show()
+    plt.show()
