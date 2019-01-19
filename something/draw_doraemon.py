@@ -326,10 +326,10 @@ def Doraemon():
 
 
 if __name__ == '__main__':
-    screensize(800, 600, "#f0f0f0")
+    screensize(800, 600, "#eeeeee")
     pensize(3)  # 画笔宽度
-    speed(9)  # 画笔速度
+    speed(20)  # 画笔速度
     Doraemon()
-    my_goto(100, -300)
-    write('by 小木', font=("Bradley Hand ITC", 30, "bold"))
+    my_goto(220, 80)
+    write('Hi, 小木', font=("Bradley Hand ITC", 30, "bold"))
     mainloop()
