@@ -331,5 +331,5 @@ if __name__ == '__main__':
     speed(20)  # 画笔速度
     Doraemon()
     my_goto(220, 80)
-    write('Hi, 小木', font=("Bradley Hand ITC", 30, "bold"))
+    write('Hello, 你好哇！', font=("Bradley Hand ITC", 30, "bold"))
     mainloop()
