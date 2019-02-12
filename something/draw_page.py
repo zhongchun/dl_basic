@@ -281,7 +281,7 @@ def setting():  # 参数设置
     colormode(255)
     color((255, 155, 192), "pink")
     setup(840, 500)
-    speed(10)
+    speed(16)
 
 
 def main():
