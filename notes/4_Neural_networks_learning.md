@@ -181,7 +181,7 @@ def function_1(x):
 
 如图 4-9 所示，
 
-![gif (https://ws3.sinaimg.cn/large/006tKfTcgy1g06cmhrb8gg304h00m0hv.gif)](/Users/yuzhongchun/Downloads/gif (1).gif)
+![fx](https://ws3.sinaimg.cn/large/006tKfTcgy1g06ct8t868g304h00m0hv.gif)
 
 的梯度呈现为有向向量（箭头）。
 
