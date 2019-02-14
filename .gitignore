@@ -6,3 +6,4 @@ dataset/train-images-idx3-ubyte.gz
 dataset/train-labels-idx1-ubyte.gz
 __pycache__
 .pyc
+draws/data/
