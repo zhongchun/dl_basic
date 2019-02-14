@@ -44,3 +44,11 @@ if __name__ == '__main__':
     plt.plot(x, y)
     plt.plot(x, y2)
     plt.show()
+
+    # # test ndim
+    # y = np.array([0.1, 0.05, 0.1, 0.0, 0.05, 0.1, 0.0, 0.6, 0.0, 0.0])
+    # print(y.ndim)
+    # print(y)
+    # print(y.size)
+    # y_re = y.reshape(1, y.size)
+    # print(y_re)
