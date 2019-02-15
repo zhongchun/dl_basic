@@ -17,7 +17,7 @@ neural_network
 ### Neural Network Learning
 neural_network_learning
 
-### Back Propagation algorithm
+### Backward Propagation algorithm
 backward_algorithm
 
 ### Learning skills
