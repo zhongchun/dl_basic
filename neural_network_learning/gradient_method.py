@@ -38,6 +38,7 @@ if __name__ == '__main__':
     lr = 0.1
     step_num = 20
     x, x_history = gradient_descent(function_2, init_x, lr=lr, step_num=step_num)
+    # explore the data: x, x_history
     print("======================================================================")
     print(x)
     print(x.shape)

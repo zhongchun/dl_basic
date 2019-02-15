@@ -38,6 +38,8 @@ if __name__ == '__main__':
     net = simpleNet()
     print("=================================================")
     print(net.W)
+    z = net.predict(x)
+    print(z.shape)
     # lambda 参数 大小写没有影响吗？
     f = lambda W: net.loss(x, t)
     f2 = lambda w: net.loss(x, t)
