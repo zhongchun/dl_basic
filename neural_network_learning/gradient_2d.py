@@ -11,8 +11,8 @@
 
 import numpy as np
 import matplotlib.pylab as plt
-from mpl_toolkits.mplot3d import Axes3D
-import sys
+# from mpl_toolkits.mplot3d import Axes3D
+# import sys
 
 
 def _numerical_gradient_no_batch(f, x):
@@ -64,27 +64,38 @@ if __name__ == '__main__':
     x1 = np.arange(-2, 2.5, 0.25)
     X, Y = np.meshgrid(x0, x1)
 
-    print(x0.size)
-    print(X.shape)
-    print(Y.shape)
-    print(type(X))
+    # # explore the data: x0, x1, X, Y
+    # print(type(x0))
+    # print(x0.shape)
+    # print(x0)
+    # print(X.shape)
+    # print(type(X))
+    # print(X)
+    # print(Y.shape)
+    # print(Y)
 
     X = X.flatten()
     Y = Y.flatten()
 
-    print(type(X))
-    print(X.shape)
-    print(X.size)
-    print(Y.shape)
-    print(Y.size)
-    Z = np.array([X, Y])
-    print(Z.shape)
-    print(Z.size)
+    # # explore the data: X, Y
+    # print(type(X))
+    # print(X.shape)
+    # print(X.size)
+    # print(X)
+    # print(Y.shape)
+    # print(Y.size)
+    # print(Y)
+    # Z = np.array([X, Y])
+    # print(type(Z))
+    # print(Z.shape)
+    # print(Z.size)
+    # for idx, x in enumerate(Z):
+    #     print(idx, x)
+    # exit()
 
     grad = numerical_gradient(function_2, np.array([X, Y]))
     print(grad.shape)
     print(grad.size)
-    # sys.exit(0)
 
     plt.figure()
     plt.quiver(X, Y, -grad[0], -grad[1], angles="xy", color="#666666")
