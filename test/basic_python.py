@@ -10,6 +10,7 @@
 """
 import numpy as np
 
+# test argmax
 x = np.array([[0.1, 0.8, 0.1],
               [0.3, 0.1, 0.6],
               [0.2, 0.5, 0.3],
@@ -24,3 +25,10 @@ a = np.array([[1, 5, 5, 2],
               [3, 7, 9, 1]])
 b = np.argmax(a, axis=1)
 print(b)
+
+# test random.choice
+train_size = 60000
+batch_size = 100
+batch_mask = np.random.choice(train_size, batch_size)
+print(batch_mask.shape)
+print(batch_mask.size)

@@ -6,16 +6,25 @@ import matplotlib.pyplot as plt
 from dataset.mnist import load_mnist
 from two_layer_net import TwoLayerNet
 
-# データの読み込み
+# load data
 (x_train, t_train), (x_test, t_test) = load_mnist(normalize=True, one_hot_label=True)
 
-network = TwoLayerNet(input_size=784, hidden_size=50, output_size=10)
+# # explore the data
+# print(x_train.ndim)
+# print(x_train.shape)
+# batch_mask = np.random.choice(60000, 100)
+# x_batch = x_train[batch_mask]
+# t_batch = t_train[batch_mask]
+# print(x_batch.shape)
+# print(t_batch.shape)
 
 # 超参数
 iters_num = 10000
 train_size = x_train.shape[0]
 batch_size = 100
 learning_rate = 0.1
+
+network = TwoLayerNet(input_size=784, hidden_size=50, output_size=10)
 
 train_loss_list = []
 train_acc_list = []
@@ -42,7 +51,7 @@ for i in range(iters_num):
     loss = network.loss(x_batch, t_batch)
     train_loss_list.append(loss)
 
-    # 计算每个epoch的识别精度
+    # 计算每个 epoch 的识别精度
     if i % iter_per_epoch == 0:
         num += 1
         train_acc = network.accuracy(x_train, t_train)
