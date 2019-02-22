@@ -14,24 +14,12 @@
 
 从零开始编写可实际运行的程序，一边看源代码，一边思考。
 
-## Python 入门
+## Main Content
 
-## 感知机
-
-## 神经网络
-
-## 神经网络的学习
-
-## 误差反向传播法
-
-## 与学习相关的技巧
-
-## 卷积神经网络
-
-## 深度学习
-
+![深度学习入门_Outline](https://ws4.sinaimg.cn/large/006tKfTcly1g0fbgzlyk3j30kd2t57bb.jpg)
 
 ## Reference
+
 1. [深度学习入门](https://book.douban.com/subject/30270959/)
 2. [深度学习入门：基于 Python 的理论与实现](https://gitbook.cn/gitchat/geekbook/5be1048a665e8a7d734a2c3f/topic/5be91e802c33167c317c6f04)
 3. [深度学习入门：基于Python的理论与实现 图灵社区](http://www.ituring.com.cn/book/1921)
